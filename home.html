@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="contents/logo.png">
+    <link rel="stylesheet" href="home.css">
+    <script type="module" src="home.js"></script>
+    <title>Cookbook - Home</title>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="navbar-left">
+      <img id="logo" src="contents/logo.png" alt="Logo" draggable="false"/>
+      <span class="navbar-brand" draggable="false">CookBook</span>
+    </div>
+    <ul class="navbar-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="addRecipe.html">Add Recipes</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li class="dropdown">
+        <button class="dropbtn" id="profile-toggle">
+          Profile <i class="fas fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="profile-dropdown">
+          <a href="profile.html">Visit Profile</a>
+          <a href="myRecipes.html">My Recipes</a>
+          <a id="logout">Logout</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Welcome, <span id="userName">User</span>!</h1>
+    <p>Discover new recipes, share your favorites, and enjoy cooking.</p>
+  </main>
+
+  <footer>
+  <p>&copy; 2025 CookBook. All rights reserved.</p>
+  </footer>
+</body>
+</html>
